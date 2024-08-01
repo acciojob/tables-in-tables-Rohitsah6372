@@ -1,2 +1,44 @@
 
-/* Your CSS Code here. */
+/* Your CSS Code here. */body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: yellow;
+}
+
+.main-table {
+    width: 90%;
+}
+
+caption {
+    caption-side: top;
+    font-size: 1.5em;
+    margin: 10px;
+    color: #333;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid black;
+}
+
+thead {
+    background-color: #009879;
+    color: #ffffff;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f3f3f3;
+}
+
+tbody tr:hover {
+    background-color: #f1f1f1;
+}
